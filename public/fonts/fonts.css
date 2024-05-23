@@ -1,0 +1,10 @@
+@font-face {
+  font-family: 'Anonymous Pro';
+      /* 
+      Путь к шрифту до изменения был таким:
+          src: url(./anonymouspro-regular.woff);
+      */
+  src: url(/fonts/anonymouspro-regular.woff);
+  font-weight: normal;
+  font-display: swap;
+}
