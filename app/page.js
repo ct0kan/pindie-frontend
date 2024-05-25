@@ -1,12 +1,15 @@
+'use client';
+
 import { Banner } from "@/app/components/Banner/Banner";
 import { Promo } from "@/app/components/Promo/Promo";
 
-import { getGamesByCategory } from "./data/data-utils";
+import { useGetDataByCategory } from "./api/api-hooks";
+import { endpoints } from "./api/config";
 import { CardsListSection } from "./components/CardsListSection/CardsListSection";
 
 export default function Home() {
-  const popularGames = getGamesByCategory('popular');
-  const newGames = getGamesByCategory('new');
+  const popularGames = useGetDataByCategory(endpoints.games, 'popular');
+  const newGames = useGetDataByCategory(endpoints.games, 'new');
 
   return (
     <main className="main">

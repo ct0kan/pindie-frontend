@@ -11,6 +11,6 @@ export default function Shooters() {
     if (!runnerGames) return <Preloader />;
 
     return (
-        <CardsListSection id="runner" title="Ранеры" type="slider" data={runnerGames} />
+        <CardsListSection id="runner" title="Ранеры" data={runnerGames} />
     );
 };

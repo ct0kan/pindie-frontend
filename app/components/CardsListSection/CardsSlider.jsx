@@ -12,7 +12,7 @@ import 'swiper/css/pagination';
 import styles from './CardsSlider.module.css';
 
 export const CardsSlider = (props) => {
-  if (!props.data.length) return null;
+  if (!props.data?.length) return null;
 
     useEffect(() => {
         const options = {

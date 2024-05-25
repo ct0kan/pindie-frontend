@@ -11,6 +11,6 @@ export default function Shooters() {
     if (!shooterGames) return <Preloader />;
 
     return (
-        <CardsListSection id="shooter" title="Шутеры" type="slider" data={shooterGames} />
+        <CardsListSection id="shooter" title="Шутеры" data={shooterGames} />
     );
 };

@@ -11,6 +11,6 @@ export default function Popular() {
     if (!popularGames) return <Preloader />;
 
     return (
-        <CardsListSection id="popular" title="Популярные" type="slider" data={popularGames} />
+        <CardsListSection id="popular" title="Популярные" data={popularGames} />
     );
 };

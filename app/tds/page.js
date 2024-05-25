@@ -11,6 +11,6 @@ export default function Tds() {
     if (!tdsGames) return <Preloader />;
 
     return (
-        <CardsListSection id="tds" title="TDS" type="slider" data={tdsGames} />
+        <CardsListSection id="tds" title="TDS" data={tdsGames} />
     );
 };

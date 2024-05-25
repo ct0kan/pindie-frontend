@@ -11,6 +11,6 @@ export default function New() {
     if (!newGames) return <Preloader />;
 
     return (
-        <CardsListSection id="new" title="Новинки" type="slider" data={newGames} />
+        <CardsListSection id="new" title="Новинки" data={newGames} />
     );
 };

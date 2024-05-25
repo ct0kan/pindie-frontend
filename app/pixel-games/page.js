@@ -11,6 +11,6 @@ export default function PixelGames() {
     if (!pixelGames) return <Preloader />;
 
     return (
-        <CardsListSection id="pixel" title="Пиксельные" type="slider" data={pixelGames} />
+        <CardsListSection id="pixel" title="Пиксельные" data={pixelGames} />
     );
 };
